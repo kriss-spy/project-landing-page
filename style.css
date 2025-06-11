@@ -1,12 +1,10 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
     margin: 0; /* TODO why default margin of 8px */
 }
-
-
 
 a {
     color:lightgrey;
@@ -17,7 +15,7 @@ button {
     width: 144px;
     height: 40px;
     border-radius: 10px;
-    background-color: #3b82f6;
+    background-color: #3882F6;
     color: #ffffff;
     flex-shrink: 0;
 }
@@ -60,7 +58,7 @@ button {
 }
 
 .header-logo{
-    flex-grow:1
+    flex-grow:1;
     flex-shrink: 0;
     color:white;
     font-size: large;
@@ -78,6 +76,8 @@ button {
     margin: 0;
     display: flex;
     gap: 24px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 
@@ -92,8 +92,8 @@ button {
 
 .main-title {
     font-size: 48px;
-    font-weight: 700;
-    color: white;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 #main-image {
@@ -156,8 +156,11 @@ button {
 .quote{
     display:flex;
     flex-direction: column;
-    font-style: italic;
     width: 640px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight:300;
 
 }
 
